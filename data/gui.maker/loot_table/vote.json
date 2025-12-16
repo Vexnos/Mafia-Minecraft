@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:fill_player_head",
+                            "entity": "this"
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:consumable": {
+                                    "consume_seconds": 0.05,
+                                    "animation": "eat",
+                                    "has_consume_particles": false
+                                },
+                                "minecraft:custom_data": {
+                                    "vote": "yes"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}   
