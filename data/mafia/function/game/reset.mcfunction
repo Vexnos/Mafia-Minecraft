@@ -5,6 +5,13 @@ scoreboard players set #mafias mafias 0
 scoreboard players set #towns towns 0
 scoreboard players reset #countdown countdown
 
+# Clear Schedules
+schedule clear mafia:game/countdown/countdown
+schedule clear mafia:game/countdown/youare
+schedule clear mafia:game/day/vote/vote
+schedule clear mafia:game/day/vote/election
+schedule clear mafia:game/reveal_roles
+
 # Advancements
 advancement revoke @a only mafia:vote
 
