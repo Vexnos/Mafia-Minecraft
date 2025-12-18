@@ -21,9 +21,18 @@ tag @a remove mafia
 tag @a remove doctor
 tag @a remove sheriff
 tag @a remove town
+tag @a remove player1
+tag @a remove player2
+tag @a remove player3
+tag @a remove player4
+tag @a remove player5
+tag @a remove player6
+tag @a remove player7
+tag @a remove player8
+tag @a remove player9
 
 # Gamemode
-gamemode adventure @a
+# gamemode adventure @a
 
 # Clear Inventories
 clear @a
